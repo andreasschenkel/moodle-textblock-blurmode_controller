@@ -5,6 +5,9 @@ This code can be used to add a blur-functionality to a course so that some data 
 You can turn blur mode on and of using the local storage of the browser to remember the setting on all pages.  
 The block has to be configured to be displayed on ALL pages of the course so that the block add the functionality on all pages eg participant page.  
 
+Author/Copyright:  
+Andreas Schenkel based on code and ideas from Matthias Giger https://github.com/mattgig and Florian Dagner https://github.com/fdagner
+
 ## Blur mode inactive  
 ![blurinactive.png](documentation/blurinactive.png)
 
