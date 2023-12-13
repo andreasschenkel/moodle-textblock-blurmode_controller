@@ -1,9 +1,4 @@
 (capabilitys changed so block is only visible to role trainer)
-<!-- This code should be placed in a textblock that is visible on all pages of a course.
-     By default this textblock is for user with the role teacher and students should not see this block.
-     So you should edit the capability in the context of this block and remove the "view" capability for role student.
--->
-
 <!-- This is a checkbox that supports the event onchange.
       So if the checkbox changes the function switchBlurMode() is called.
 -->
@@ -49,7 +44,9 @@ Also the function changeBlurMode is called. */
         // This is the list of selectors that should be controlled by the blurmode controller.
         let selector = ":is(\n" +
             "#blurme,\n" +
-
+            "#reportuser,\n" +
+            "#menuuser,\n" +
+            ".reportloglive,\n" +
             "#page-admin-user  #page-content #users tbody,\n" +
             "#page-admin-user  #page-content #users tbody  a[href*=\"user/view\"],\n" +
             "#page-admin-user  #page-content #users tbody .c1,\n" +
@@ -95,4 +92,3 @@ Also the function changeBlurMode is called. */
     setBlurMode();
     changeBlurMode();
 </script>
-
