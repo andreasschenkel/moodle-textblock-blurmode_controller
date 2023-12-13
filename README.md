@@ -18,7 +18,7 @@ This setting is stored in the localstorage of the browser so that the blur featu
 
 The feature might depends on the choosen moodletheme. So please test the features in your moodle and change the selectors if needed.
 
-# Example-blurgit ouk
+# Example-blur
 ## particiant list:
 The participant list might look like this:
 ![participantlist.png](documentation/participantlist.png)
@@ -27,7 +27,7 @@ The participant list might look like this:
 
 ## grader report:
 The grader report might look like this:
-![participantlist.png](documentation/participantlist.png)
+![grader_report.png](documentation/grader_report.png)
 
 # Additional selectors   
 If you need more selectors you can add them in the function changeBlurMode().
